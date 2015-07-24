@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Leshan</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/leshan.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body id="page-top" class="index">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">Eclipse Leshan</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">Overview</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#getting-started">Getting started</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#learn-more">Learn more</a>
+                        </li>
+                        <li class="iot-logo">
+                        <a href="http://iot.eclipse.org">
+                            <img class="img-responsive" src="img/iot-logo2.png" alt="Eclipse IoT"> 
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+                    
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img class="img-responsive" src="img/multicolor-leshan.png" alt="">
+                        <div class="intro-text">
+                            <span class="skills">OMA Lightweight M2M server and client java implementation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>What is Leshan</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-7">
+                        <h3>LWM2M</h3>
+                        <p>OMA Lightweight M2M is a protocol from the Open Mobile Alliance for M2M or IoT device management.
+                            <ul>
+                                <li>On top of CoAP</li>
+                                <li>UDP and SMS transport layer support</li>
+                                <li>Simple Object based resource model</li>
+                                <li>Basic M2M functionalities: LWM2M Server, Access Control, Device, Connectivity, Firmware Update, Location, Connectivity Statistics</li>
+                                <li>DTLS based security</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-offset-5 col-sm-7">
+                        <h3>Leshan</h3>
+                        <p>Leshan provides libraries which help people to develop their own Lightweight M2M server and client.
+                            <ul>
+                                <li>Eclipse project since 2014</li>
+                                <li>Modular Java libraries</li>
+                                <li>Based on <a href="https://eclipse.org/californium/#sources">Californium</a> CoAP implementation</li>
+                                <li>Based on <a href="https://eclipse.org/californium/#sources">Scandium</a> DTLS implementation</li>
+                            </ul>
+                        </p>
+                        <div class="text-center">
+                            <a href="http://github.com/eclipse/leshan">Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-7">
+                        <h3>Discover and test</h3>
+                        <p>The project also provides a Lightweight M2M standalone server as an example of the Leshan Server API and for testing purpose.</p>
+                        <div class="text-center">
+                            <a href="http://leshan.eclipse.org">Demo server</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Getting started Section -->
+        <section class="success" id="getting-started">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Getting started</h2>
+                    </div>
+                </div>
+                <div class="row">   
+                    <div class="col-sm-4">
+                        <h3>Take the tutorial</h3>
+                        <p>This tutorial aims at giving you a hands-on experience with Lightweight M2M by showing you the power and simplicity of the Eclipse Leshan library for managing real world IoT application.
+                        </p>
+                    </div>
+                    <div class="col-sm-8 text-center">
+                        <iframe src="http://fr.slideshare.net/slideshow/embed_code/key/1JzJW3YBp1c9uF" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//fr.slideshare.net/jvermillard/hands-on-with-lightweight-m2m-and-leshan" title="Hands on with lightweight m2m and Eclipse Leshan" target="_blank">Hands on with lightweight m2m and Eclipse Leshan</a> </strong> from <strong><a href="//www.slideshare.net/jvermillard" target="_blank">Julien Vermillard</a></strong> </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learn more Section -->
+        <section id="learn-more">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Learn more</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4>Eclipse Wakaama</h4>
+                    <ul>
+                        <li>LWM2M client in C</li>
+                        <li>Repository
+                    </ul>
+                    <h4>Playing with Leshan and Wakaama</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOF9QSAmu7U" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hidden-print">
+                            <h4>Eclipse Foundation</h4>
+                            <ul class="nav">
+                                <li><a href="//www.eclipse.org/org/">About us</a></li>
+                                <li><a href="//www.eclipse.org/org/foundation/contact.php">Contact Us</a></li>
+                                <li><a href="//www.eclipse.org/donate">Donate</a></li>
+                                <li><a href="//www.eclipse.org/org/documents/">Governance</a></li>
+                                <li><a href="//www.eclipse.org/artwork/">Logo and Artwork</a></li>
+                                <li><a href="//www.eclipse.org/org/foundation/directors.php">Board of Directors</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hidden-print">
+                            <h4>Legal</h4>
+                            <ul class="nav">
+                                <li><a href="//www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+                                <li><a href="//www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+                                <li><a href="//www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
+                                <li><a href="//www.eclipse.org/org/documents/epl-v10.php">Eclipse Public License</a></li>
+                                <li><a href="//www.eclipse.org/legal/">Legal Resources</a></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix visible-sm"></div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hidden-print">
+                            <h4>Useful Links</h4>
+                            <ul class="nav">
+                                <li><a href="//bugs.eclipse.org/bugs/">Report a Bug</a></li>
+                                <li><a href="//help.eclipse.org/">Documentation</a></li>
+                                <li><a href="//www.eclipse.org/contribute/">How to Contribute</a></li>
+                                <li><a href="//www.eclipse.org/mail/">Mailing Lists</a></li>
+                                <li><a href="//www.eclipse.org/forums/">Forums</a></li>
+                                <li><a href="//marketplace.eclipse.org">Marketplace</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hidden-print">
+                            <h4>Other</h4>
+                            <ul class="nav">
+                                <li><a href="//www.eclipse.org/ide/">IDE and Tools</a></li>
+                                <li><a href="//www.eclipse.org/projects">Community of Projects</a></li>
+                                <li><a href="//www.eclipse.org/org/workinggroups/">Working Groups</a></li>
+                            </ul>
+                        </div>
+                        <div id="copyright" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hidden-print">
+                            <div class="row">
+                                <div class="col-xs-12 cols-sm-6 col-md-3 col-lg-3">
+                                    <span class="hidden-print">
+                                        <img src="http://projects.eclipse.org/sites/all/themes/solstice/public/images/logo/eclipse-logo-bw-800x188.png" alt="Eclipse.org black and white logo" width="166" height="39" class="logo-eclipse-white">
+                                    </span>
+                                </div>
+                                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                    <p id="copyright-text">Copyright © 2015 The Eclipse Foundation. All Rights Reserved.</p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top page-scroll visible-xs visible-sm">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+
+
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+        <!-- Plugin JavaScript -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.min.js"></script>
+
+        <!-- Custom JavaScript -->
+        <script src="js/leshan.js"></script>
+
+
+    </body>
+
+    </html>
