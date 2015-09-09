@@ -123,7 +123,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 15px 0;
+        padding: 0px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -169,12 +169,23 @@ header .intro-text .skills {
 }
 
 .navbar .navbar-nav>li>a {
-    color: #F7FAFA;   
+    color: #F7FAFA;
 }
-    
+
+.navbar .navbar-nav>li>a:hover {
+    color: #25A79C;
+}
+
 .navbar .navbar-nav .iot-logo>a {
     padding: 0px;
+   line-height : 80px;
 }
+
+.navbar .navbar-nav > li > a { 
+   line-height : 80px
+}
+
+.navbar-brand { line-height : 80px }
 
 .navbar-default,
 .navbar-inverse {
