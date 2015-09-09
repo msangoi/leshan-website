@@ -9,16 +9,16 @@ $(function() {
     $('body').on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top - $('#header').outerHeight()
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
 });
 
 // Highlight the top nav as scrolling occurs
-$('body').scrollspy({
-    target: '.navbar-fixed-top'
-})
+// $('body').scrollspy({
+//     target: '.navbar-fixed-top'
+// })
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {

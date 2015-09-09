@@ -176,6 +176,10 @@ header .intro-text .skills {
     color: #25A79C;
 }
 
+.navbar .navbar-nav>li>a:visited {
+    color: #25A79C;
+}
+
 .navbar .navbar-nav .iot-logo>a {
     padding: 0px;
    line-height : 80px;
@@ -341,6 +345,11 @@ footer #copyright-text {
 
 footer a {
     color: #9E9E9E;
+    background-color: #333333;
+}
+
+footer ul.nav a:hover {
+     background-color: transparent;   
 }
 
 .btn:focus,
